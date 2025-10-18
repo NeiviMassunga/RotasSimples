@@ -1,0 +1,20 @@
+{
+    "name": "pereira/rotas-simples",
+    "description": "Pequeno Projeto para mostrar como funciona routas em php.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Domingos Fernando Juliao Pereira \"Neivis Massunga\""
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "league/plates": "^3.6"
+    }
+}
